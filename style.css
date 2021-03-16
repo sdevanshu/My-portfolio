@@ -38,11 +38,13 @@ hr{
    background-color: var(--primary-color);
    border-radius: 0.5rem;
    color: white;
+   
 }
 
 .link-secondary{
     border-radius:0.5rem;
     border : 1px solid var(--primary-color) ;
+    
 }
 
 /**list**/
@@ -91,6 +93,7 @@ hr{
 .hero
 {
     padding: 2rem;
+    padding-top: 4rem;
 }
 
 .hero .hero-img
@@ -116,7 +119,8 @@ hr{
 
 .section
 {
-    padding: 1rem;
+    padding: 2rem;
+    
 }
 
 .section h1
