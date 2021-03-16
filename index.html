@@ -1,119 +1,78 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    <link href="style.css" rel="stylesheet"/>
+    <title>home | Devanshu</title>
+    <link href="style.css"rel="stylesheet"/>
 </head>
-
 <body>
-    <h1>Devanshu Kumar Singh component library</h1>
-    <p>I want to make a library , which will make my all projects look good and consistent</p>
-
-    <hr>
-
-    <h2>@typography: How letters will look</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>Its the second biggest heading</h2>
-    <p>Its the normal text, which will be free flowing and wrap up at the end like a paragraph. </p>
-    <small>Its the smallest heading.</small>
-
-    <hr>
-
-    <h2>@container: Its more of visual stuff,it has no much meaning so thats why we use div tag here.</h2>
-    <h3>Fluid container</h3>
-    <div class="container">This is a fluid container it will go till the end of the page. </div>
-    <h3>Center container</h3>
-    <div class="container center-container">This is a centered conatainer it will have a specified width.</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class="link link-primary"href="/">Primary Link</a>
-    <a class="link link-secondary"href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@list</h2>
-    <h3>unordered list</h3>
-    <ul class="list-non-bullet">
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-    <h3>inline unordered list</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline Item one</li>
-        <li class="list-item-inline">Inline Item two</li>
-        <li class="list-item-inline">Inline Item three</li>
-    </ul>
-    <h3>reverse order list</h3>
-    <ol reversed>
-        <li>Milk</li>
-        <li>Egg</li>
-        <li>Bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav :To move to different page of the same website.</h2>
-
-
     <nav class="navigation">
-        <div class="nav-brand">iAmBrand</div> 
+        <div class="nav-brand">iAm Developer</div> 
             <ul class="list-non-bullet nav-pills">
                 <li class="list-item-inline">
                     <a class="link link-active" href="/">Home</a>
                 </li>
                 <li class="list-item-inline">
-                    <a class="link" href="/">Product</a>
+                    <a class="link" href="/projects.html">Projects</a>
                 </li>
                 <li class="list-item-inline">
-                    <a class="link" href="/">About</a>
+                    <a class="link" href="/blogs.html">Blogs</a>
                 </li>
             </ul>
     </nav>
-
-    <hr>
-
-    <h2>@header:Less info more fancy</h2>
-
-    <header>
-        <img src="image/hero-image.svg">
-        <h1>heading inside hero</h1>
+    
+    <header class="hero">
+        <img class= "hero-img" src="image/hero-image.svg">
+        <h1 class ="hero-heading">Devanshu Kumar Singh the<span class=" heading-inverted"> Web Developer</span></h1>
     </header>
+    <section class="section ow">
+        <div class="container center-container">
+            <h1>technologies</h1>
+            <p>I am familiar with HTML, CSS3, Git, JavaScript, NodeJS, Web Hosting</p>
 
-    <hr>
-
-    <h2>@section</h2>
-
-    <section>
-        <h3>White Section</h3>
-        <p>This will have white background </p>
-    </section>
-    <section>
-        <h3>Off-white Section</h3>
-        <p>This will have grey background</p>
+        </div>
+        
     </section>
 
-    <hr>
+    <section class="section">
+        <div class="container center-container">
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a class="link link-primary"href="/">See Projects</a>
+        </div>
+    </section>
 
-    <h2>@footer : Inside footer we should not use h1 tags.</h2>
-    <footer>
-        <div>Some small heading inside header</div>
-        <ul>
-            <li>SocialOne</li>
-            <li>SocialTwo</li>
-            <li>SocialThree</li>
+    <section class="section ow">
+        <div class="container center-container">
+            <h1>blogs</h1>
+            <p>I am also working on some technical and non-technical blogs. I like to document my journey of learning</p>
+            <a class="link link-secondary"href="/">Read Blogs</a>
+        </div>
+        
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">Social media presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"> <a class="link" 
+                href="https://github.com/sdevanshu">GitHub
+                </a>
+            </li>
+            <li class="list-item-inline"><a class="link "
+                href="https://linkedin.com/in/devanshu-kumar-singh-129181199">Linkedin
+                </a>
+            </li>
+            <li class="list-item-inline"><a class="link"
+                href="https://instagram.com/d_k_s_2409">Instagram
+                </a>
+            </li>
         </ul>
     </footer>
 
-
-
+        
+    
 </body>
-
 </html>
